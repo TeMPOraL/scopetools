@@ -18,7 +18,7 @@
          (png-data (zpng:data-array png))
          (step (floor scale-x)))
     (dotimes (i (length data) (zpng:write-png png output-file))
-      (setf (aref png-data (nth i data) (* i step) 0) 100)
-      (setf (aref png-data (1+ (nth i data)) (* i step) 0) 100))
+      (setf (aref png-data (nth i data) (* i step) 0) 255)
+      (setf (aref png-data (1+ (nth i data)) (* i step) 0) 200))
     nil))
 
