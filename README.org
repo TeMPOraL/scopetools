@@ -1,0 +1,6 @@
+#+title: Scope Tools
+#+startup: hidestars
+
+Just me playing with the outputs of our Hackerspace's digital oscilloscope.
+
+TODO: The file is *probably* not in 1-byte format. Check out 2-byte values.
